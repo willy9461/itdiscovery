@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #121934;
+    padding: 25px 50px;
+}
+
+.nav_item {
+    font-family: 'Orbitron', sans-serif;
+    text-decoration: none;
+    font-weight: 500;
+    color: #FFF;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin: 0 auto;
+    padding-top: 40vh;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: #FFF;
+    max-width: 40vw;
+
+}
+
+
+/* FONDOS */
+.home {
+    height: 165vh;
+    background-image: url(img/fondos/PRESENTACION.png);
+}
+
+.identidad {
+    display: flex;
+    flex-direction: column;
+    height: 185vh;
+    background-image: url(img/fondos/IDENTIDAD.png);
+    z-index: 0;
+}
+
+.identidad_text {
+    font-family: 'Numans', sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #FFF;
+    margin-top: 1em;
+}
+
+.resaltar {
+    padding: .2em;
+    background-image: linear-gradient(#2F8F92, #2F6F92);
+    border-radius: 5px;
+}
+
+.resolucion {
+    padding-top: 2rem;
+    margin-top: 18rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    background: #fafafa10;
+    border-radius: 10px;
+}
+
+.resolver {
+    font-family: 'Numans', sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #ead9f2;
+}
+
+.resaltar1 {
+    padding: .4em;
+    padding-top: .8em;
+    background-image: linear-gradient(#2f3292, #a50cf1);
+    border-radius: 5px;
+}
+
+.resaltar2 {
+    padding: .4em;
+    padding-top: .8em;
+    background-image: linear-gradient(#a50cf1, #2f3292);
+    border-radius: 5px;
+}
+
+.resolver_text {
+    font-family: 'Numans', sans-serif;
+    font-size: 22px;
+    text-decoration: none;
+    font-weight: 400;
+    color: #CEB0DD;
+    max-width: 60%;
+}
+.servicios {
+    height: 165vh;
+    background-image: url(img/fondos/SERVICIO.png);
+    margin-top: -20rem;
+    position: relative;
+    z-index: -1;
+}
+
+.servicios_title {
+    display: flex;
+    justify-content: start;
+    padding-top: 10vh;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: #FFF;
+    max-width: 80vw;
+    position: relative;
+    left: 50vw;
+    background-image: linear-gradient(#fafafa10, #a50cf1);
+    z-index: 1;
+}
+
