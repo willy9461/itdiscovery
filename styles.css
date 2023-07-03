@@ -5,6 +5,7 @@
 }
 
 
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -87,7 +88,7 @@
     font-size: 30px;
     text-decoration: none;
     font-weight: 500;
-    color: #ead9f2;
+    color: #ffffff;
 }
 
 .resaltar1 {
@@ -109,13 +110,13 @@
     font-size: 22px;
     text-decoration: none;
     font-weight: 400;
-    color: #CEB0DD;
+    color: #ffffff;
     max-width: 60%;
 }
 .servicios {
     height: 165vh;
     background-image: url(img/fondos/SERVICIO.png);
-    margin-top: -20rem;
+    margin-top: -25rem;
     position: relative;
     z-index: -1;
 }
@@ -130,8 +131,182 @@
     color: #FFF;
     max-width: 80vw;
     position: relative;
-    left: 50vw;
+    left: 40vw;
     background-image: linear-gradient(#fafafa10, #a50cf1);
     z-index: 1;
+    overflow: hidden;
+    max-width: 113vh;
 }
 
+.servicios_description {
+    
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 8rem;
+    gap: 3rem;
+
+}
+
+
+.servicio_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+    min-width: 30vw;
+    border: 5px solid transparent;
+    border-image: linear-gradient(130deg, aqua, purple, pink);
+    border-image-slice: 1;
+    border-radius: 5px;
+}
+.servicio_card_title {
+    font-family: 'Numans', sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #ffffff;
+    margin: 3rem;
+}
+
+
+.list {
+    font-family: 'Numans', sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.boton_central {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem;
+}
+
+.proyectos {
+    height: 165vh;
+    background-image: url(img/fondos/SERVICIO.png);
+    position: relative;
+    z-index: -1;
+    
+}
+
+.proyectos_title {
+    display: flex;
+    justify-content:flex-end;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: #FFF;
+    background-image: linear-gradient(180deg, rgba(0, 255, 255, 0.085), aqua );
+    padding-top: 3rem;
+    max-width: 60vw;
+    
+}
+
+
+.proyect {
+    height: 20rem;
+    width: 20rem;
+    border: 5px solid transparent;
+    border-image: linear-gradient(130deg, aqua, purple, pink);
+    border-image-slice: 1;
+    border-radius: 5px;
+}
+
+.proyectos_lista {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 5rem;
+
+}
+
+.proyecto_titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Numans', sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 3rem;
+}
+
+.proyecto_description {
+    font-family: 'Numans', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 200;
+    color: #ffffff;
+}  
+
+
+.proyecto_article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} 
+
+.proceso {
+    height: 300vh;
+    background-image: url(img/fondos/SERVICIO.png);
+    position: relative;
+    z-index: -1;
+}
+
+.proceso_title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: #FFF; 
+}
+
+.proceso_grafico {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    margin-top: 5rem;
+}
+
+.proceso_concept_list {
+    list-style-type: none;
+}
+
+.proceso_description_list {
+    list-style-type: none; 
+}
+
+.proceso_description_listItem {
+    font-family: 'Numans', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 3rem;
+    border: 5px solid transparent;
+    border-image: linear-gradient(130deg, aqua, purple, pink);
+    border-image-slice: 1;
+    border-radius: 15px;
+}
+
+.proceso_concept_listItem {
+    font-family: 'Numans', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #ffffff;
+    padding: 2.6rem;
+    background-image: linear-gradient(130deg, aqua, purple);
+    border-radius: 15px;
+    margin-bottom: 1rem;
+}
+
+.proceso_imagen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+}
