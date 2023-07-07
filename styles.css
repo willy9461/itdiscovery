@@ -255,7 +255,7 @@
 } 
 
 .proceso {
-    height: 300vh;
+    height: 240vh;
     background-image: url(img/fondos/SERVICIO.png);
     position: relative;
     z-index: -1;
@@ -309,4 +309,98 @@
     align-items: center;
     justify-content: center;
     margin-top: 10rem;
+}
+
+.nosotros {
+    height: 140vh;
+    background-image: url(./img/fondos/NOSOTROS.png);
+    display: flex;
+}
+
+
+.nosotros_nosotros {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    max-width: 40vw;
+    height: 40vh;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    padding: 2rem;
+    background-image: linear-gradient(rgba(0, 255, 255, 0.414), rgba(128, 0, 128, 0.374) );
+    border-radius: 10px;
+    position: relative;
+    left: 50%;
+}
+
+
+.nosotros_title {
+    font-family: 'Numans', sans-serif;
+    color: #FFF;
+    margin-top: 3rem;
+}
+
+.nosotros_text {
+    font-family: 'Numans', sans-serif;
+    color: #FFF;
+}
+
+.cultura {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    width: 75vw;
+    height: 65vh;
+    margin-top: 21.7rem;
+    padding: 2rem;
+    background-image: linear-gradient(rgba(0, 255, 255, 0.414), rgba(128, 0, 128, 0.374) );
+    border-radius: 10px;
+    position: relative;
+    right: 30%;
+}
+
+.cultura_title {
+    font-family: 'Numans', sans-serif;
+    color: #FFF;
+    margin-top: 3rem;
+}
+
+.cultura_text {
+    font-family: 'Numans', sans-serif;
+    color: #FFF;
+}
+
+.valores_item {
+    font-family: 'Numans', sans-serif;
+    color: #FFF;
+}
+
+.bold {
+    font-weight: 900;
+    font-style: italic;
+}
+
+.certifica {
+    position: relative;
+    width: 100%;
+    height: 10rem;
+    background-image: linear-gradient(rgba(0, 255, 255, 0.414), rgba(128, 0, 128, 0.374));
+    border-radius: 10px;
+    margin-top: -10rem;
+    padding-top: 1rem;
+}
+
+.contacto {
+    background-image: url(./img/fondos/CONTACTO.png);
+    height: 145vh;
+}
+
+.form-label {
+    font-family:'Numans', sans-serif; 
+    text-shadow: 1px 1px 2px whitesmoke;
+}
+
+.dos_en_uno {
+    display: flex;
+    justify-content:stretch;
 }

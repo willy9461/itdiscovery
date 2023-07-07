@@ -21,6 +21,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
     />
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   </head>
   <body>
     <header class="header">
@@ -198,8 +199,71 @@
         <div class="proceso_imagen">
           <img src="./img/grafico_proceso.png" alt="">
         </div>
-
       </section>
+      <section class="nosotros">
+        <article class="nosotros_nosotros">
+          <h2 class="nosotros_title">NOSOTROS</h2>
+          <p class="nosotros_text">ITD comenzó como un proyecto desafiante durante la pandemia. 
+            Hoy evoluciona como una Cloud Tech StartUp con proyectos e integrantes internacionales.</p>
+            <p class="nosotros_text">Acompañamos la evolución en cada etapa de tu startup.</p>
+        </article>
+        <article class="cultura">
+          <h3 class="cultura_title">CULTURA</h3>
+          <p class="cultura_text">Nos enfocamos en el proyecto existente y el problema a solucionar. </p>
+          <p class="cultura_text">Desarrollamos valor continuo entregando calidad de manera iterativa e incremental. </p>
+          <p class="cultura_text">Nuestros valores:
+            <ul class="valores">
+              <li class="valores_item">Innovación</li>
+              <li class="valores_item">Descentralización</li>
+              <li class="valores_item">Compromiso</li>
+              <li class="valores_item">Integridad</li>
+              <li class="valores_item">Colaboración</li>
+            </ul>
+          </p>
+          <p class="cultura_text bold">Somos un equipo con criterio, metodología, ideas, pasiones y constancia!</p>
+        </article>  
+        </section>
+        <section class="certifican container">
+          <article class="certifica">
+            <h3 class="certifica_title text-center">NOS CERTIFICAN</h3>
+          </article>
+        </section>
+        <section class="contacto">
+          <div class="container pt-5">
+            <h3 class="contacto_subtitle">DEJANOS TU CONTACTO</h3>
+            <form action="" class="row">
+              <div class="col-5 mb-3">
+                <label for="nameInput" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nameInput" placeholder="Escribe tu Nombre">
+              </div>
+              <div class="col-5 mb-3">
+                <label for="surnameInput" class="form-label">Apellido</label>
+                <input type="text" class="form-control" id="surnameInput" placeholder="Escribe tu Apellido">
+              </div>
+              <div class="col-10 mb-3">
+                <label for="emailInput" class="form-label">Email</label>
+                <input type="email" class="form-control" id="emailInput" placeholder="Escribe tu Email">
+              </div>
+              <div class="col-5 mb-3">
+                <label for="telInput" class="form-label">Teléfono</label>
+                <input type="number" class="form-control" id="telInput" placeholder="Número de teléfono">
+              </div>
+              <div class="col-5 mb-3">
+                <label for="linkedinInput" class="form-label">Linkedin</label>
+                <input type="text" class="form-control" id="linkedinInput" placeholder="Linkedin">
+              </div>
+              <div class="col-10 mb-5">
+                <label for="detalleInput" class="form-label">Detalle</label>
+                <input type="text" class="form-control" id="detalleInput" style="height: 7rem;">
+              </div>
+              <div class="mb-3 dos_en_uno container">
+                <div class="g-recaptcha" data-sitekey="6Leg5gAnAAAAAOGwNSoLoZCoGsM2SuKRoMzw09rr"></div>
+                <button class="col-3" type="submit" style="height: 4rem;"> Enviar</button>
+              </div>
+                
+            </form>
+          </div>
+        </section>
     </main>
   </body>
 </html>
