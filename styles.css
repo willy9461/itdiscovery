@@ -47,7 +47,7 @@
 
 /* FONDOS */
 .home {
-    height: 165vh;
+    height: 155vh;
     background-image: url(img/fondos/PRESENTACION.png);
 }
 
@@ -314,32 +314,33 @@
 }
 
 .nosotros {
-    height: 140vh;
-    background-image: url(./img/fondos/NOSOTROS.png);
+    height: fit-content;
+    background-image: url(./img/fondos/SERVICIO.png);
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
 }
 
 
 .nosotros_nosotros {
     display: flex;
     flex-direction: column;
-    align-items:flex-start;
-    max-width: 40vw;
-    height: 40vh;
-    margin-top: 5rem;
-    margin-left: 2rem;
+    align-items:center;
+    justify-content: center;
+    max-width: 80vw;
+    height: auto;
     padding: 2rem;
-    background-image: linear-gradient(rgba(0, 255, 255, 0.414), rgba(128, 0, 128, 0.374) );
+    background-image:linear-gradient(rgba(128, 0, 128, 0.374), rgba(0, 255, 255, 0.414), rgba(128, 0, 128, 0.374));
     border-radius: 10px;
-    position: relative;
-    left: 50%;
 }
 
 
 .nosotros_title {
     font-family: 'Numans', sans-serif;
     color: #FFF;
-    margin-top: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
 }
 
 .nosotros_text {
@@ -350,21 +351,19 @@
 .cultura {
     display: flex;
     flex-direction: column;
-    align-items:flex-start;
-    width: 75vw;
-    height: 65vh;
-    margin-top: 21.7rem;
+    align-items:center;
+    width: 80vw;
+    height: auto;
     padding: 2rem;
-    background-image: linear-gradient(rgba(0, 255, 255, 0.414), rgba(128, 0, 128, 0.374) );
+    background-image:linear-gradient(rgba(128, 0, 128, 0.374), rgba(0, 255, 255, 0.414), rgba(128, 0, 128, 0.374));
     border-radius: 10px;
-    position: relative;
-    right: 30%;
 }
 
 .cultura_title {
     font-family: 'Numans', sans-serif;
     color: #FFF;
-    margin-top: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
 }
 
 .cultura_text {
@@ -383,26 +382,53 @@
 }
 
 .certifica {
-    position: relative;
-    width: 100%;
-    height: 10rem;
-    background-image: linear-gradient(rgba(0, 255, 255, 0.414), rgba(128, 0, 128, 0.374));
+    width: 80vw;
+    height: 20rem;
+    background-image:linear-gradient(rgba(128, 0, 128, 0.374), rgba(0, 255, 255, 0.414), rgba(128, 0, 128, 0.374));
     border-radius: 10px;
-    margin-top: -10rem;
     padding-top: 1rem;
+}
+.certifica_title {
+    font-family: 'Numans', sans-serif;
+    color: #FFF;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
 }
 
 .contacto {
-    background-image: url(./img/fondos/CONTACTO.png);
-    height: 145vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./img/fondos/PRESENTACION.png);
+    height:max-content;
+    padding: 10rem;
+}
+
+.contacto_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff14;
+}
+
+.contacto_subtitle {
+    font-family: 'Numans', sans-serif;
+    color: #FFF;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
 }
 
 .form-label {
     font-family:'Numans', sans-serif; 
-    text-shadow: 1px 1px 2px whitesmoke;
+    color: #FFF;
+}
+
+.row {
+    justify-content: center;
 }
 
 .dos_en_uno {
     display: flex;
-    justify-content:stretch;
+    justify-content:space-around;
 }
