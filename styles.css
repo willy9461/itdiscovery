@@ -113,9 +113,9 @@ body {
 }
 
 .resolver {
-    max-width: 80vw;
+    max-width: 95vw;
     font-family: 'Numans', sans-serif;
-    font-size: 1.8em;
+    font-size: 1.6em;
     text-decoration: none;
     font-weight: 500;
     color: #ffffff;
@@ -301,6 +301,7 @@ body {
     font-size: 40px;
     font-weight: 400;
     color: #FFF; 
+    margin-top: 10rem;
 }
 
 .proceso_grafico {
@@ -371,15 +372,18 @@ body {
 
 
 .nosotros_title {
-    font-family: 'Numans', sans-serif;
-    color: #FFF;
-    margin-top: 1rem;
-    margin-bottom: 3rem;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: #FFF; 
+    margin-top: 5rem;
+    margin-bottom: 1rem;
 }
 
 .nosotros_text {
     font-family: 'Numans', sans-serif;
     color: #FFF;
+    font-size: 1.5em;
 }
 
 .cultura {
@@ -394,20 +398,24 @@ body {
 }
 
 .cultura_title {
-    font-family: 'Numans', sans-serif;
-    color: #FFF;
-    margin-top: 1rem;
-    margin-bottom: 3rem;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: #FFF; 
+    margin-top: 5rem;
+    margin-bottom: 1rem;
 }
 
 .cultura_text {
     font-family: 'Numans', sans-serif;
     color: #FFF;
+    font-size: 1.5em;
 }
 
 .valores_item {
     font-family: 'Numans', sans-serif;
     color: #FFF;
+    font-size: 1.4em;
 }
 
 .bold {
@@ -465,4 +473,41 @@ body {
 .dos_en_uno {
     display: flex;
     justify-content:space-around;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 15vh;
+    color: whitesmoke;
+    margin-top: 2rem;
+}
+
+.footer_redes {
+   margin-left: 10rem;
+}
+
+
+.author {
+    color: whitesmoke;
+    background-color: whitesmoke;
+    margin-right: 1em;
+}
+
+.redes_img_text {
+    display: flex;
+    justify-content:baseline;
+    align-items: baseline;
+    text-decoration: none;
+    gap: .5rem;
+}
+
+
+.ul_footer {
+    list-style-type: none;
+}
+.redes_img_text:visited {
+    text-decoration: none;
+    color: #ffffff;
 }
