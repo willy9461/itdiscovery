@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: linear-gradient(90deg,#121934, #17224e );
+    
+}
 
 
 .header {
@@ -47,16 +51,24 @@
 
 /* FONDOS */
 .home {
-    height: 155vh;
-    background-image: url(img/fondos/PRESENTACION.png);
+    height: 100vh;
+    /* background-image: url(img/fondos/PRESENTACION.png); */
+    background-image: url(./img/fondos/Isologofondo2.svg);
+    background-repeat: round;
+   
 }
+
 
 .identidad {
     display: flex;
     flex-direction: column;
-    height: 185vh;
-    background-image: url(img/fondos/IDENTIDAD.png);
+    height: 100vh;
+    /* background-image: url(img/fondos/IDENTIDAD.png); */
     z-index: 0;
+    background-image: url(img/Isologo.png);
+    background-repeat:no-repeat;
+    background-position:95% top;
+    background-size: 18em;
 }
 
 .identidad_text {
@@ -68,26 +80,42 @@
     margin-top: 1em;
 }
 
+.gifs {
+    display: flex;
+    margin: 3rem auto;
+    justify-content: space-around;
+    background-color: #ffffff;
+    max-height: fit-content;
+    gap: 1rem;
+    max-width: 40vw;
+    border-radius: 5px;
+    box-shadow: 0.5rem 0.5rem 30px #2f8f9292;
+}
+
 .resaltar {
     padding: .2em;
     background-image: linear-gradient(#2F8F92, #2F6F92);
     border-radius: 5px;
 }
+.resaltar:hover {
+    background-image: linear-gradient(#2F6F92, #111b1b);
+}
 
 .resolucion {
     padding-top: 2rem;
-    margin-top: 18rem;
+    margin-top: 6rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 3rem;
-    background: #fafafa10;
+    background: #fafafa08;
     border-radius: 10px;
 }
 
 .resolver {
+    max-width: 80vw;
     font-family: 'Numans', sans-serif;
-    font-size: 30px;
+    font-size: 1.8em;
     text-decoration: none;
     font-weight: 500;
     color: #ffffff;
@@ -116,28 +144,33 @@
     max-width: 60%;
 }
 .servicios {
-    height: 165vh;
-    background-image: url(img/fondos/SERVICIO.png);
-    margin-top: -25rem;
+    height: auto;
+    /* background-image: url(img/fondos/SERVICIO.png); */
+    margin-top: 3rem;
     position: relative;
     z-index: -1;
 }
 
+
 .servicios_title {
-    display: flex;
-    justify-content: start;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: #FFF; 
+    /* display: flex;
+    justify-content: center;
     padding-top: 10vh;
     font-family: 'Orbitron', sans-serif;
     font-size: 40px;
     font-weight: 400;
     color: #FFF;
-    max-width: 80vw;
-    position: relative;
-    left: 40vw;
-    background-image: linear-gradient(#fafafa10, #a50cf1);
-    z-index: 1;
-    overflow: hidden;
-    max-width: 113vh;
+    max-width: 80vw; */
+    /* position: relative;
+    left: 40vw; */
+    /* background-image: linear-gradient(#fafafa10, #a50cf1); */
+    /* z-index: 1;
+    overflow: hidden; */
+    /* max-width: 113vh; */
 }
 
 .servicios_description {
@@ -190,7 +223,7 @@
 
 .proyectos {
     height: 165vh;
-    background-image: url(img/fondos/SERVICIO.png);
+    /* background-image: url(img/fondos/SERVICIO.png); */
     position: relative;
     z-index: -1;
     
@@ -257,8 +290,8 @@
 } 
 
 .proceso {
-    height: 240vh;
-    background-image: url(img/fondos/SERVICIO.png);
+    height: fit-content;
+    /* background-image: url(img/fondos/SERVICIO.png); */
     position: relative;
     z-index: -1;
 }
@@ -314,8 +347,9 @@
 }
 
 .nosotros {
+    margin-top: 5rem;
     height: fit-content;
-    background-image: url(./img/fondos/SERVICIO.png);
+    /* background-image: url(./img/fondos/SERVICIO.png); */
     display: flex;
     flex-direction: column;
     align-items: center;
